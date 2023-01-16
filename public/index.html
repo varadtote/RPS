@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/6851/6851302.png">
 </head>
 <body>
 <main>
     <navbar>
         <div>
-            ROCK PAPER SCISSORS 
+            <h1>ROCK PAPER SCISSORS </h1>
+            <!-- <img src="https://cdn-icons-png.flaticon.com/512/6851/6851302.png" alt="" height="50px" width="50px"> -->
+            <h3>First To Score 5 Wins</h3>
         </div>
     </navbar>
     <playig-area>
@@ -28,21 +31,24 @@
                     </span></p></div>
             </div>
             <div class="score">
-                <div class="user-score"> <p>1</p></div>
-                <div class="computer-score"><p>1</p></div>
+                <div class="user-score"> <p id="userSc">0</p></div>
+                <div class="computer-score"><p id="compSc">0</p></div>
             </div>
             <div class="buttons">
-            <div class="controls">
-                <div class="stone"><button><img src="https://www.pngitem.com/pimgs/m/742-7426823_cartoon-stone-png-transparent-png.png" alt="" srcset=""></button></div>
-                <div class="paper"><button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mail-mark-junk-2.svg/2048px-Mail-mark-junk-2.svg.png" alt="" srcset=""></button></div>
-                <div class="scissor"><button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6gXtiMO9ZAjhRpt3tG1G4inrwv1XDNHJeK8KkKJY&s" alt="" srcset=""></button></div>
-            </div>
-            <div class="controls-comp">
-                <div class="stone"><button><img src="https://www.pngitem.com/pimgs/m/742-7426823_cartoon-stone-png-transparent-png.png" alt="" srcset=""></button></div>
-                <div class="paper"><button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mail-mark-junk-2.svg/2048px-Mail-mark-junk-2.svg.png" alt="" srcset=""></button></div>
-                <div class="scissor"><button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6gXtiMO9ZAjhRpt3tG1G4inrwv1XDNHJeK8KkKJY&s" alt="" srcset=""></button></div>
-            </div>
-        </div>
+                <div class="controls">
+                    <div class="stone"><button><img src="https://www.pngitem.com/pimgs/m/742-7426823_cartoon-stone-png-transparent-png.png" alt="" srcset=""></button></div>
+                    <div class="paper"><button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mail-mark-junk-2.svg/2048px-Mail-mark-junk-2.svg.png" alt="" srcset=""></button></div>
+                    <div class="scissor"><button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6gXtiMO9ZAjhRpt3tG1G4inrwv1XDNHJeK8KkKJY&s" alt="" srcset=""></button></div>
+                </div>
+                <div class="controls-comp">
+                    <div class="stone-comp"><button><img src="https://www.pngitem.com/pimgs/m/742-7426823_cartoon-stone-png-transparent-png.png" alt="" srcset=""></button></div>
+                    <div class="paper-comp"><button><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Mail-mark-junk-2.svg/2048px-Mail-mark-junk-2.svg.png" alt="" srcset=""></button></div>
+                    <div class="scissor-comp"><button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6gXtiMO9ZAjhRpt3tG1G4inrwv1XDNHJeK8KkKJY&s" alt="" srcset=""></button></div>
+                </div>
+             </div>
+             <div class="results">
+                <h2 id="result">This is Resultss</h2>
+             </div>
         </div>
     </playig-area>
 </main>
