@@ -75,27 +75,26 @@ function Play() {
                 let result = document.querySelector('#result').innerHTML = "[User -> Scissors] [Computer -> Paper]";
             }
     }
-    console.log(rUserGuess, rComputerGuess);
-    console.log(`User -> ${UserScore} , Computer -> ${ComputerScore}`);
-    //}
+    // console.log(rUserGuess, rComputerGuess);
+    // console.log(`User -> ${UserScore} , Computer -> ${ComputerScore}`);
 
 
 }
 function ScoreUpdate() {
     ComputerScore = document.querySelector('#compSc').innerHTML = ComputerScore;
-    console.log(ComputerScore)
+    // console.log(ComputerScore)
     UserScore = document.querySelector('#userSc').innerHTML = UserScore;
     // UserScore.document.querySelector('user-score');
 }
 function CheckWinner() {
     if (UserScore >= 5) {
-        console.log("User is Winner");
+        // console.log("User is Winner");
         let result = document.querySelector('#result').innerHTML = "";
         let winner = document.querySelector('#winner').innerHTML = "User is Winner";
         let disp = document.querySelector('#mybtn').style.visibility = "visible";
     }
     else if (ComputerScore >= 5) {
-        console.log("Computer is Winner");
+        // console.log("Computer is Winner");
         let result = document.querySelector('#result').innerHTML = "";
         let winner2 = document.querySelector('#winner').innerHTML = "Computer is Winner";
         let disp = document.querySelector('#mybtn').style.visibility = "visible";
